@@ -38,7 +38,8 @@ public class PhysicsCalculatorGUI {
 
         //change dimensions of box
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        frame.setPreferredSize(new Dimension(screenSize.width, screenSize.height));
+        frame.setPreferredSize(new Dimension(500,500));
+//        frame.setPreferredSize(new Dimension(screenSize.width, screenSize.height));
 
 
         frame.pack();
@@ -349,7 +350,7 @@ public class PhysicsCalculatorGUI {
 
 
 
-    // Internal runner-don't change in case if we get rid of normal non-GUI
+    // Internal runner
     public void showGUI() {
         frame.setVisible(true);
     }
